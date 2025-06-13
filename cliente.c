@@ -21,7 +21,8 @@ int main() {
     servidor_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
 
     connect(sock, (struct sockaddr *)&servidor_addr, sizeof(servidor_addr));
-
+//    printf("Conectado ao servidor.\n");
+    printf("Conectado ao servidor.\n");
     printf("Digite uma mensagem para o servidor: ");
     fgets(mensagem, sizeof(mensagem), stdin);
 
