@@ -29,7 +29,7 @@ Este modelo simula um cenário real de rede local, com troca de mensagens síncr
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 - cliente.c # Código do processo cliente
 - servidor.c # Código do processo servidor
 
