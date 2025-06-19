@@ -39,9 +39,10 @@ DWORD WINAPI thread_func(LPVOID param) {
         sair_secao_critica(id);
     }
 
-    return 0;
+    return 0; // Retorna 0 para indicar sucesso
 }
 
+// Função principal
 int main() {
     HANDLE threads[2];
     int ids[2] = {0, 1};
@@ -56,6 +57,7 @@ int main() {
     CloseHandle(threads[0]);
     CloseHandle(threads[1]);
 
+    // Exibe o valor final do contador
     printf("Valor final do contador: %d\n", contador);
     return 0;
 }
