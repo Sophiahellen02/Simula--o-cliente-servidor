@@ -18,7 +18,7 @@ int main() {
 
     servidor_addr.sin_family = AF_INET;
     servidor_addr.sin_port = htons(12345);
-// usar o endereço IP local para conectar ao servidor
+// Usar o endereço IP local para conectar ao servidor
     servidor_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
 
     connect(sock, (struct sockaddr *)&servidor_addr, sizeof(servidor_addr));
