@@ -1,4 +1,4 @@
-# Tarefa 02 - Comunicação entre Processos  
+# Tarefas - Sistemas Operacionais  
 **Disciplina:** PET2049 - Sistemas Operacionais - T01 (2025.1 - 23M45)  
 **Professor:** Reudismam Rolim  
 
